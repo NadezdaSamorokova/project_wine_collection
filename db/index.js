@@ -6,7 +6,7 @@ console.log(10);
 const Wine = require("../models/Wine.model");
 const data = require("../wine");
 const MONGO_URI =
-  process.env.MONGODB_URI || "mongodb://localhost:27017/wine_collection";
+   process.env.MONGODB_URI || "mongodb://localhost:27017/wine_collection";
 
 console.log(11);
 mongoose

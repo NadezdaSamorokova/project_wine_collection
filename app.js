@@ -42,13 +42,16 @@ app.use(
 );
 
 // 👇 Start handling routes here
+//home page route
 const indexRoutes = require("./routes/index.routes");
 app.use("/", indexRoutes);
 console.log(4);
 
+//user route
 const userRoutes = require("./routes/user.routes");
 app.use("/", userRoutes);
 
+//wine route
 const wineRoutes = require("./routes/wine.routes");
 app.use("/", wineRoutes);
 
