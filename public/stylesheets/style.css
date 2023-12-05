@@ -147,7 +147,7 @@ footer {
 
 /* Main page styling - index.hbs */
 .main {
-  height: calc(100% - 222px);;
+  height: calc(100% - 222px);
 }
 
 .index-container {
@@ -211,7 +211,7 @@ footer {
 
 @media (max-width: 900px) {
   .main {
-    height: calc(100% - 217px);;
+    height: calc(100% - 217px);
   }
 
   .index-title {
@@ -235,7 +235,7 @@ footer {
 
 @media (max-width: 768px) {
   .main {
-    height: calc(100% - 213px);;
+    height: 90vh;
   }
 
   .index-container {
@@ -305,7 +305,7 @@ footer {
 
 @media (max-width: 560px) {
   .main {
-    height: calc(100% - 181px);;
+    height: 80vh;
   }
 
   .index-title {
@@ -329,7 +329,7 @@ footer {
 
 @media (max-width: 425px) {
   .main {
-    height: calc(100% - 141px);;
+    height: calc(100% - 141px);
   }
 
   .index-title {
