@@ -147,7 +147,7 @@ footer {
 
 /* Main page styling - index.hbs */
 .main {
-  height: calc(100% - 222px);
+  height: calc(100% - 170px);
 }
 
 .index-container {
@@ -210,10 +210,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .main {
-    height: calc(100% - 217px);
-  }
-
   .index-title {
     font-size: 32px;
   }
@@ -520,7 +516,7 @@ footer {
   font-size: 36px;
   font-weight: 900;
   line-height: 1.5;
-  margin: 50px 0 30px;
+  margin: 40px 0 30px;
 }
 
 .profile-texts {
@@ -534,10 +530,10 @@ footer {
 }
 
 .profile-text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
-  margin: 0 0 20px 0;
+  margin: 0 0 18px 0;
 }
 
 .profile-link {
@@ -563,11 +559,6 @@ footer {
 
   .profile-title {
     font-size: 32px;
-    margin: 40px 0 30px;
-  }
-
-  .profile-text {
-    font-size: 18px;
   }
 }
 
